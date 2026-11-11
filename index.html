@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de criptografía</title>
+</head>
+
+<body>
+
+    <h1>Práctica de criptografía</h1>
+
+    <h2>Mis claves</h2>
+
+    <button id="generarClaves">Generar claves</button>
+
+    <p>Clave pública:</p>
+    <textarea id="clavePublica" rows="8" cols="70"></textarea>
+
+    <p>Clave privada:</p>
+    <textarea id="clavePrivada" rows="8" cols="70"></textarea>
+
+    <h2>Clave pública remota</h2>
+
+    <textarea id="claveRemota" rows="8" cols="70"></textarea>
+
+    <h2>Enviar mensaje</h2>
+
+    <textarea id="mensaje" rows="5" cols="70" placeholder="Escribe tu mensaje"></textarea>
+
+    <br>
+
+    <button id="firmarMensaje">Firmar mensaje</button>
+    <button id="cifrarMensaje">Cifrar mensaje</button>
+
+    <p>Mensaje cifrado:</p>
+    <textarea id="mensajeCifrado" rows="8" cols="70"></textarea>
+
+    <h2>Recibir mensaje</h2>
+
+    <textarea id="mensajeRecibido" rows="8" cols="70" placeholder="Pega aquí el mensaje cifrado"></textarea>
+
+    <br>
+
+    <button id="descifrarMensaje">Descifrar mensaje</button>
+
+    <h2>Resultado</h2>
+
+    <p>Mensaje recibido:</p>
+    <textarea id="resultado" rows="5" cols="70"></textarea>
+
+    <p id="estadoFirma"></p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
