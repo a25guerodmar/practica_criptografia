@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2563eb;
+}
+
+h2 {
+    color: #1e40af;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+p {
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 8px 5px 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+#descifrarMensaje {
+    background-color: #16a34a;
+}
+
+#descifrarMensaje:hover {
+    background-color: #15803d;
+}
+
+#estadoFirma {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+}
